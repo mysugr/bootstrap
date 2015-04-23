@@ -61,7 +61,16 @@ We provide a CSS-files with non-caching headers, namely `bootstrap.css`. This fi
         @push null
       return src
 
-    gulp.task 'deploy:rev',->
+    gulp.task 'deploy:minify',->
+      minifyCss = require 'gulp-minify-css'
+      rename    = require 'gulp-rename'
+
+      gulp.src 'dist/css/bootstrap.css'
+      .pipe minifyCss()
+      .pipe rename suffix:'.min'
+      .pipe gulp.dest 'dist/css/'
+
+    gulp.task 'deploy:rev',['deploy:minify'],->
       gulp.src 'dist/css/bootstrap.min.css'
         .pipe rev()
         .pipe gulp.dest 'dist/s3'

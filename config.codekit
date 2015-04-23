@@ -50,20 +50,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/dist\/css\/mysugr-colors.css": {
+	"\/dist\/css\/bootstrap.min.css.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/css\/mysugr-colors.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dist\/css\/mysugr-forms.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/css\/mysugr-forms.css",
+		"inputAbbreviatedPath": "\/dist\/css\/bootstrap.min.css.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -118,6 +109,42 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/s3\/bootstrap-6b0e0372.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/s3\/bootstrap-6b0e0372.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/s3\/bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/s3\/bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/s3\/bootstrap.min-a3383552.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/s3\/bootstrap.min-a3383552.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/s3\/bootstrap.min-de8b1417.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/s3\/bootstrap.min-de8b1417.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/docs\/_includes\/ads.html": {
 		"fileType": 8192,
@@ -1850,19 +1877,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Gulpfile.coffee": {
-		"createSourceMap": 0,
-		"fileType": 32,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/Gulpfile.coffee",
-		"minifyOutput": 1,
-		"outputAbbreviatedPath": "\/Gulpfile.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/Gulpfile.js": {
@@ -3739,17 +3753,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/min\/Gulpfile-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/min\/Gulpfile-min.js",
-		"outputAbbreviatedPath": "\/min\/min\/Gulpfile-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/package.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3787,6 +3790,15 @@
 		}
 	},
 "hooks": [
+	{
+		"enabled": 1,
+		"hookType": 1,
+		"name": "Hook #1",
+		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGb3BYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMjY7PEFFS1BRVl1jaGpVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy8wMV8QEE5TU2VsZkV4cHJlc3Npb25cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMzWhNIAJgAzTCx83ODk6WU5TS2V5UGF0aIALEAqACl5vdXRwdXRGdWxsUGF0aNIrLD0+XxAcTlNLZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM\/QDFfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtIrLEJDXk5TTXV0YWJsZUFycmF5o0JEMVdOU0FycmF50issRkdfEBNOU0tleVBhdGhFeHByZXNzaW9upEhJSjFfEBNOU0tleVBhdGhFeHByZXNzaW9uXxAUTlNGdW5jdGlvbkV4cHJlc3Npb25cTlNFeHByZXNzaW9u00wfC01OT18QD05TQ29uc3RhbnRWYWx1ZYAPEACAEF1ib290c3RyYXAuY3Nz0issUlNfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo1RVMV8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb25cTlNFeHByZXNzaW9u1QtXWFlaW04oKFxaTlNNb2RpZmllcldOU0ZsYWdzWk5TUG9zaXRpb25eTlNPcGVyYXRvclR5cGWAEhAJ0issXl9fEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9ypGBhYjFfEBxOU1N1YnN0cmluZ1ByZWRpY2F0ZU9wZXJhdG9yXxAZTlNTdHJpbmdQcmVkaWNhdGVPcGVyYXRvcl8QE05TUHJlZGljYXRlT3BlcmF0b3LSKyxkZV8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNmZzFfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGVbTlNQcmVkaWNhdGXSKyxEaaJEMdIrLGtsXxATTlNDb21wb3VuZFByZWRpY2F0ZaNtbjFfEBNOU0NvbXBvdW5kUHJlZGljYXRlW05TUHJlZGljYXRlXxAPTlNLZXllZEFyY2hpdmVy0XFyVHJvb3SAAQAIABEAGgAjAC0AMgA3AFAAVgBdAHcAiQCQAJIAlACWAJsApgCoAKoArAC1AMkA3ADyAPQA9gD4APoBBQEPAR4BMQE9AT8BQQFDAUUBRwFUAVkBWwFdAWIBbQF2AYkBjQGgAa0BtgG7Ab0BvwHBAcgB0gHUAdYB2AHnAewCCwIPAi4COwJAAk8CUwJbAmACdgJ7ApECqAK1ArwCzgLQAtIC1ALiAucDAwMHAyMDMAM7A0YDTgNZA2gDagNsA3EDkAOVA7QD0APmA+sEAwQHBB8EKwQwBDMEOAROBFIEaAR0BIYEiQSOAAAAAAAAAgEAAAAAAAAAcwAAAAAAAAAAAAAAAAAABJA=",
+		"runOrder": 0,
+		"scriptSourceString": "echo \"hello\"",
+		"uuidString": "7AFD30C8-A6C7-4FC1-AB82-D86D684CB522"
+		}
 	],
 "lastSavedByUser": "Andreas Pizsa",
 "manualImportLinks": {
@@ -4414,7 +4426,7 @@
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 1,
-	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"skippedItemsString": "_cache, logs, _logs, cache, .git, \/dist\/s3, log, node_modules, .svn, .hg",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",

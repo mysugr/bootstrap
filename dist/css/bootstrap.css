@@ -6510,4 +6510,10 @@ button.close {
     display: none !important;
   }
 }
+.form-control {
+  background: #f3f2f2;
+  border-color: transparent;
+  border-radius: 3px;
+  box-shadow: none;
+}
 /*# sourceMappingURL=bootstrap.css.map */

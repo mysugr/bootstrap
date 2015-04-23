@@ -50,24 +50,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/dist\/css\/mysugr-colors.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/css\/mysugr-colors.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/dist\/css\/mysugr-forms.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/css\/mysugr-forms.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/dist\/css\/theme.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1852,19 +1834,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Gulpfile.coffee": {
-		"createSourceMap": 0,
-		"fileType": 32,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/Gulpfile.coffee",
-		"minifyOutput": 1,
-		"outputAbbreviatedPath": "\/Gulpfile.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/Gulpfile.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3279,6 +3248,46 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/less\/mysugr-buttons.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/mysugr-buttons.less",
+		"outputAbbreviatedPath": "\/dist\/css\/mysugr-buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/less\/mysugr-carousel.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/mysugr-carousel.less",
+		"outputAbbreviatedPath": "\/dist\/css\/mysugr-carousel.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/less\/mysugr-colors.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 1,
@@ -3739,17 +3748,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/min\/Gulpfile-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/min\/Gulpfile-min.js",
-		"outputAbbreviatedPath": "\/min\/min\/Gulpfile-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/package.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3788,7 +3786,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Andreas Pizsa",
+"lastSavedByUser": "Bianca Busetti",
 "manualImportLinks": {
 	},
 "projectAttributes": {

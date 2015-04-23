@@ -6510,10 +6510,67 @@ button.close {
     display: none !important;
   }
 }
+.btn,
+.btn-lg,
+.btn-sm,
+.btn-group-sm > .btn,
+.btn-group-lg > .btn {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.btn-xs,
+.btn-group-xs > .btn {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 .form-control {
   background: #f3f2f2;
   border-color: transparent;
   border-radius: 3px;
   box-shadow: none;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  text-shadow: none;
+  color: #5F5C57;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  font-size: 50px;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+.glyphicon-chevron-right {
+  font-family: "mySugr Icons";
+}
+.glyphicon-chevron-right:before {
+  content: '\e006';
+}
+.glyphicon-chevron-left {
+  font-family: "mySugr Icons";
+}
+.glyphicon-chevron-left:before {
+  content: '\e005';
+}
+.carousel-inner .item img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-indicators li {
+  border: 1px solid #5F5C57;
+}
+.carousel-indicators .active {
+  background-color: #5F5C57;
+}
+.carousel-caption {
+  color: #5F5C57;
+  text-shadow: none;
+  position: none;
+  text-align: center;
+  padding-top: 20px;
 }
 /*# sourceMappingURL=bootstrap.css.map */

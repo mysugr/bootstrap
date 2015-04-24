@@ -156,27 +156,27 @@
   background-image: none;
 }
 .btn-danger {
-  background-image: -webkit-linear-gradient(top, #ff8819 0%, #db6a00 100%);
-  background-image: linear-gradient(to bottom, #ff8819 0%, #db6a00 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff8819', endColorstr='#ffdb6a00', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #bc171b 0%, #851013 100%);
+  background-image: linear-gradient(to bottom, #bc171b 0%, #851013 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbc171b', endColorstr='#ff851013', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #d16500;
+  border-color: #7c0f12;
 }
 .btn-danger:hover,
 .btn-danger:focus {
-  background-color: #db6a00;
+  background-color: #851013;
   background-position: 0 -15px;
 }
 .btn-danger:active,
 .btn-danger.active {
-  background-color: #db6a00;
-  border-color: #d16500;
+  background-color: #851013;
+  border-color: #7c0f12;
 }
 .btn-danger.disabled,
 .btn-danger:disabled,
 .btn-danger[disabled] {
-  background-color: #db6a00;
+  background-color: #851013;
   background-image: none;
 }
 .thumbnail,
@@ -319,10 +319,10 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ac00', endColorstr='#ffbd8700', GradientType=0);
 }
 .progress-bar-danger {
-  background-image: -webkit-linear-gradient(top, #ff8819 0%, #e56f00 100%);
-  background-image: linear-gradient(to bottom, #ff8819 0%, #e56f00 100%);
+  background-image: -webkit-linear-gradient(top, #bc171b 0%, #8f1114 100%);
+  background-image: linear-gradient(to bottom, #bc171b 0%, #8f1114 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff8819', endColorstr='#ffe56f00', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbc171b', endColorstr='#ff8f1114', GradientType=0);
 }
 .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);

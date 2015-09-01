@@ -39,6 +39,8 @@ We provide a CSS-files with non-caching headers, namely `bootstrap.css`. This fi
 
     gulp = require 'gulp'
     gutil= require 'gulp-util'
+    less = require 'gulp-less'
+    path = require 'path'
     rev  = require 'gulp-rev'
     s3   = require 'gulp-s3'
 
@@ -61,7 +63,12 @@ We provide a CSS-files with non-caching headers, namely `bootstrap.css`. This fi
         @push null
       return src
 
-    gulp.task 'deploy:minify',->
+    gulp.task 'deploy:less', ->
+      gulp.src './less/bootstrap.less'
+      .pipe less paths: [path.join(__dirname, 'less'), path.join(__dirname, 'less/mixins')]
+      .pipe gulp.dest 'dist/css'
+
+    gulp.task 'deploy:minify',['deploy:less'],->
       minifyCss = require 'gulp-minify-css'
       rename    = require 'gulp-rename'
 

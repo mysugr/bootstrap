@@ -79,7 +79,7 @@ We provide a CSS-files with non-caching headers, namely `bootstrap.css`. This fi
         .pipe gulp.dest 'dist/s3'
 
     gulp.task 'deploy:css', ['deploy:rev'],->
-      rev = require 'dist/s3/rev-manifest.json'
+      rev = require './dist/s3/rev-manifest.json'
       importClause = """
         /* This file was generated automatically on #{(new Date()).toISOString()} */
         @import \"#{rev['bootstrap.min.css']}\"
